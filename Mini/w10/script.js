@@ -45,3 +45,5 @@ $.ajax({
 //     </div>`
 //     })
 // }
+
+// belum selesai pakai fetch
