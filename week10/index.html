@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="primary-header">
+            <img src="./img/menu (1).png" alt="">
+        </div>
+        <div class="secondary-header">
+            <p>Foods Item</p>
+        </div>
+        <div class="tertiary-header">
+            <img src="./img/search.png" alt="">
+        </div>
+        <div id="fourthiary-header">
+            <p id="cart-notif">Cart</p>
+            <p id="qty-cart"></p>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div class="">
+                <img src="./img/fork.png" alt="">
+            </div>
+            <div class="">
+                <img src="./img/clipboard.png" alt="">
+            </div>
+            <div class="">
+                <img src="./img/add.png" alt="">
+            </div>
+        </nav>
+        <article>
+            <div id="product">
+                
+            </div>
+        </article>
+        <aside>
+            <div id="cart">
+            </div>
+            <div id="total">
+                <div id="total2">Total : </div>
+                <div id="priceTotal"></div>
+            </div>
+            <div class="ppn">*Belum termasuk ppn</div>
+            <button class="checkout">Checkout</button>
+            <button id="cancel" onclick="cancel()">Cancel</button>
+        </aside>
+        <div class="modal-box">
+            <div  class="modal">
+                <div class="inner-modal">
+                    <div class="title-modal">
+                        <h4>Checkout</h3>
+                        <p>Receipt no: #010410919</p>
+                    </div>
+                    <div class="cashier">
+                        <p>Cashier :  Pevita Pearce</p>
+                    </div>
+                    <!-- <div id="modalHere"></div> -->
+                    <div id="modalHere" class="receipt-in-modal">
+                        <div class="list-item">
+                            <p>Coffee Latte 1x</p>
+                            <p>Rp. 15.000</p>
+                        </div>
+                        <div class="tax-modal">
+                            <p>ppn 10%</p>
+                            <p>Rp. 1.500</p>
+                        </div>
+                        <div class="total-modal"><p>Total : Rp. 115.500</p></div>
+                        <div class="payment"><p>Payment : Cash</p></div>
+                    </div>
+                    <div class="modal-inner-button">
+                        <button id="print" class="btn-inner-modal close-modal">Print</button>
+                        <p>Or</p>
+                        <button class="btn-inner-modal send">Send Email</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="./menu.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
